@@ -1,0 +1,8 @@
+<templateSet group="custom">
+  <template name="singleton" value="// ================= singleton ======================&#10;private static final $CLAZZ$ instance = new $CLAZZ$();&#10;public static $CLAZZ$ getInstance(){ return instance; }&#10;&#10;// ================= class fields ===================&#10;$END$" description="declare singleton" toReformat="false" toShortenFQNames="true">
+    <variable name="CLAZZ" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
