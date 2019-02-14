@@ -17,4 +17,10 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="//==" value="// ================= $TEXT$ ===================" description="sperator comments" toReformat="false" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="&quot;getters &amp; setters&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
