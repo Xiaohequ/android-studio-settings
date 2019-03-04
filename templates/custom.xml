@@ -23,4 +23,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="task" value="// ================= task ===================&#10;private static class BackgroundTask extends fr.trackoe.dotation.service.utils.BackgroundTask&lt;Object, Void, Object&gt; {&#10;    public BackgroundTask(TaskResultHandler&lt;Object&gt; handler) { super(handler); }&#10;&#10;    @Override&#10;    protected Object doInBackground(Object... objects) {&#10;        final $type$ $var$ = ($type$) objects[0];&#10;        $END$&#10;        return null;&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
