@@ -30,4 +30,11 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="EVENT_" value="public static final String $EVENT_NAME$ = $CLASS_NAME$.class.getSimpleName() + &quot;.$EVENT_NAME$&quot;;&#10;" description="define event" toReformat="false" toShortenFQNames="true">
+    <variable name="EVENT_NAME" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
