@@ -37,4 +37,10 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="logger" value="private static final Logger logger = LoggerFactory.getLogger($CLAZZ$.class);" description="define logger" toReformat="false" toShortenFQNames="true">
+    <variable name="CLAZZ" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
