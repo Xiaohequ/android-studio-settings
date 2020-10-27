@@ -5,6 +5,7 @@
       <mapping pattern="comment_envoyer_depot_ou_autre" type="PLAIN_TEXT" />
       <mapping pattern="V1__create_table_test" type="PLAIN_TEXT" />
       <mapping pattern="ajout_table_a_synchro" type="PLAIN_TEXT" />
+      <mapping pattern="ExampleFragment" type="PLAIN_TEXT" />
       <mapping ext="tap" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
