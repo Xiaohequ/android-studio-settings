@@ -2,8 +2,10 @@
   <component name="FindSettings">
     <option name="customScope" value="Module 'formulaire_perso.app'" />
     <option name="defaultScopeName" value="Module 'formulaire_perso.app'" />
+    <option name="localWholeWordsOnly" value="true" />
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Module 'formulaire_perso.app'" />
   </component>
 </application>
