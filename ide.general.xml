@@ -1,7 +1,7 @@
 <application>
   <component name="GeneralSettings">
-    <option name="confirmExit" value="false" />
     <option name="processCloseConfirmation" value="TERMINATE" />
+    <option name="reopenLastProject" value="false" />
     <option name="searchInBackground" value="true" />
   </component>
   <component name="Registry">
