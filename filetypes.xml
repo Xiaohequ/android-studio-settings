@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <removed_mapping ext="pro" type="DeviceSpecFile" />
       <mapping pattern="comment_envoyer_depot_ou_autre" type="PLAIN_TEXT" />
       <mapping pattern="V1__create_table_test" type="PLAIN_TEXT" />
       <mapping pattern="ajout_table_a_synchro" type="PLAIN_TEXT" />
@@ -10,8 +9,8 @@
       <mapping ext="tap" type="PLAIN_TEXT" />
       <mapping ext="workdb-shm" type="SQLite" />
       <mapping ext="db" type="SQLite" />
-      <mapping ext="pro" type="Shrinker Config File" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="pro" approved="true" type="DeviceSpecFile" />
       <removed_mapping ext="psd" approved="true" type="Image" />
     </extensionMap>
   </component>
