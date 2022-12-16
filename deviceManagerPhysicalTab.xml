@@ -1,0 +1,17 @@
+<application>
+  <component name="deviceManagerPhysicalTab">
+    <physicalDevices>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="Default0string" />
+          </Key>
+        </key>
+        <name value="RuggedPad86H RuggedPad86H" />
+        <target value="Android 5.1" />
+        <api value="androidversion:22:null:null:true" />
+      </PhysicalDevice>
+    </physicalDevices>
+  </component>
+</application>
